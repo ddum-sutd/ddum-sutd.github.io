@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<title>Walkable Southeast Asia</title>
+
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -18,43 +19,56 @@
 							<!-- Header -->
 								<header id="header">
 									
-									
+								
 								</header>
-								<br/>
-								<h3>Francisco Benita, Srinivasan Padmapriya </h3>
-								<h3>UROP Students: Chavi Mangala, Tessa Maria Dougan, Reina Peh Shu Ting, Stephanie Anne Min Long,Fenet Gizachen Demissie   </h3>
-								<p><em> Singapore University of Technology and Design</em> </p>
-									  
+
 							<!-- Banner -->
-								<section id="banner">
-									<div class="content">
-										<header>
-											<h1>Walkable Southeast Asia: A Repository of Urban Liveability Features</h1>
-											<h2>Exploring Walkability</h2>
-											
-										</header>
-										<p>In the realm of urban planning and community development, understanding the walkability of a neighborhood is crucial. In this  post, we'll explore a simple Python script designed to compute walkability features using a variety of powerful libraries. </p>
-										<h2>Getting Started</h2>
-										<p>To kick off our journey, we utilized several Python libraries to streamline the process: 
-											<ul>
-
-												<li><b>rtree</b>: A spatial indexing library that helps speed up spatial queries.</li>
-												<li><b>osmnx</b>: A Python library to retrieve, model, analyze, and visualize street networks from OpenStreetMap.</li>
-												<li><b>geopandas</b>: A library for working with geospatial data, enhancing the capabilities of pandas.</li>
-												<li><b>matplotlib</b>Used for data visualization and creating insightful maps.</li>
-												<li><b>geopy</b>: A tool for geocoding and dealing with geographical calculations.</li>
-												<li><b>networkx</b>: A library for the creation, manipulation, and study of complex networks.</li>
-											</ul>											
-										</p>
-										<h2>Project Overview </h2>
-										<p>The goal of our project was to develop a set of simple scripts capable of computing walkability features for a given location. We leveraged OpenStreetMap data to extract information about the street network </p>
-
-
+							<section id="banner">
+								<div class="content">
+									<!-- Flex container for the title and image -->
+									<div style="display: flex; align-items: center; justify-content: space-between;">
+										<!-- Text column for the title and other information -->
+										<div style="flex: 1; padding-right: 20px;"> <!-- Adjust padding as needed -->
+											<header>
+												<p><strong>Fransisco Benita and Padmapriya Srinivasan</strong></p>
+												<p>UROP Students: Chavi Mangla, Tessa Dougan, Reina Peh Shu Ting, Stephanie Ann Min Long, Fenet Demssie</p>
+												<p><em> Singapore University of Technology and Design</em> </p>
+												<h1>Walkable Southeast Asia: A Repository of Urban Liveability Features</h1>
+												<h2>Exploring Walkability</h2>
+											</header>
+											<p>In the realm of urban planning and community development, understanding the walkability of a neighborhood is crucial. In this post, we'll explore a simple Python script designed to compute walkability features using a variety of powerful libraries.</p>
+										</div>
+										
+										<!-- Image column -->
+										<div style="flex: 1;">
+											<img src="Picture1.png" alt="" style="max-width: 100%; max-height: 680px; height: auto;" />
+										</div>
 									</div>
-									<span class="image object">
-										<img src="images/pic10.jpg" alt="" />
-									</span>
-								</section>
+									
+									<!-- Flex container for the "Getting Started" and "Project Overview" sections -->
+									<div style="display: flex; justify-content: space-between; margin-top: 20px;"> <!-- Adjust margin as needed -->
+										<!-- Getting Started Section -->
+										<div style="width: 48%;">
+											<h2>Getting Started</h2>
+											<ul>
+												<li><strong>rtree</strong>: A spatial indexing library that helps speed up spatial queries.</li>
+												<li><strong>osmnx</strong>: A Python library to retrieve, model, analyze, and visualize street networks from OpenStreetMap.</li>
+												<li><strong>geopandas</strong>: A library for working with geospatial data, enhancing the capabilities of pandas.</li>
+												<li><strong>matplotlib</strong>: Used for data visualization and creating insightful maps.</li>
+												<li><strong>geopy</strong>: A tool for geocoding and dealing with geographical calculations.</li>
+												<li><strong>networkx</strong>: A library for the creation, manipulation, and study of complex networks.</li>
+											</ul>
+										</div>
+										
+										<!-- Project Overview Section -->
+										<div style="width: 48%;">
+											<h2>Project Overview</h2>
+											<p>The goal of our project was to develop a set of simple scripts capable of computing walkability features for a given location. We leveraged OpenStreetMap data to extract information about the street network.</p>
+										</div>
+									</div>
+								</div>
+							</section>
+							
 
 							<!-- Section -->
 								<section>
@@ -116,7 +130,7 @@
 											<span class="icon solid fa-bolt"></span>
 											<div class="content">
 												<h3>Unveiling Walkability Metrics: Isochrone Analysis</h3>
-												<p>The first step involves constructing an isochrone graph centered around a point of interest (POI) with latitude and longitude coordinates over our pedestrian network. The isochrone is created based on a specified walking distance (500 meters in this example) from the POI </p>
+												<p>The first step involves constructing an isochrone graph centered around a point of interest (POI) with latitude and longitude coordinates over our pedestrian network. The isochrone is created based on a specified walking distance (500 meters in this example) from the POI. </p>
 											</div>
 										</article>
 
@@ -150,7 +164,9 @@
 									</header>
 									<ul>
 										
+										<li><a href="index.html">Homepage</a></li>
 										<li><a href="pedestrian_network.html">Extracting Pedestrian Networks: A Boundary-Based Approach</a></li>
+									
 										<li><a href="Unveiling_network.html">Unveiling the Pedestrian Network </a></li>
 										<li><a href="Quantifying_walkability.html">Quantifying Walkability: Measuring Network Length </a></li>
 										<li><a href="Quantifying2_walkability.html">Quantifying Walkability: Assessing Network Density  </a></li>
@@ -158,6 +174,9 @@
 										<li><a href="demographic_insights.html">Demographic Insights and Urban Features</a></li>
 										<li><a href="unveiling_walkability.html">Unveiling Walkability Metrics: Isochrone Analysis</a></li>
 										<li><a href="unveiling_spatial.html">Unveiling Spatial Overlap: Walkability Metrics in Action</a></li>
+										<li><a href="datasets.html">Datasets</a></li>
+										<li><a href="poster.html">UROP Poster</a></li>
+
 									</ul>
 								</nav>
 
